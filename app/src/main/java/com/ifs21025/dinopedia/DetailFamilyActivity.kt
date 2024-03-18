@@ -10,6 +10,7 @@ import com.ifs21025.dinopedia.databinding.ActivityDetailFamilyBinding
 class DetailFamilyActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailFamilyBinding
+    private val dataDino = ArrayList<Dino>()
     private var family: Family? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,13 +34,7 @@ class DetailFamilyActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.buttonDetalDino.setOnClickListener{
-            when(family?.name){
-                "Sauropoda"
-            }
-            val intentWithData = Intent(this@DetailFamilyActivity, DinoActivity::class.java)
-            intentWithData.putExtra()
-        }
+
     }
 
     private fun loadData(family: Family) {
@@ -65,7 +60,4 @@ class DetailFamilyActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_FAMILY = "extra_family"
     }
-
-
-
-} 
+}
