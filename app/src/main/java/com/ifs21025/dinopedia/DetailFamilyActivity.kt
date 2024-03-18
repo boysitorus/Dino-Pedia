@@ -10,7 +10,6 @@ import com.ifs21025.dinopedia.databinding.ActivityDetailFamilyBinding
 class DetailFamilyActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailFamilyBinding
-    private val dataDino = ArrayList<Dino>()
     private var family: Family? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +33,11 @@ class DetailFamilyActivity : AppCompatActivity() {
             finish()
         }
 
-
+        binding.buttonDetalDino.setOnClickListener {
+            val intentWithData = Intent(this@DetailFamilyActivity, DinoActivity::class.java)
+            intentWithData.putExtra(DinoActivity.EXTRA_FAMILY, family!!)
+            startActivity(intentWithData)
+        }
     }
 
     private fun loadData(family: Family) {

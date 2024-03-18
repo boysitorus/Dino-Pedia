@@ -13,4 +13,6 @@ data class Family(
     var habitat: String,
     var perilaku: String,
     var klasifikasi: String,
+    var startIndex: Int,
+    var endIndex: Int
 ) : Parcelable

@@ -60,12 +60,16 @@ class MainActivity : AppCompatActivity() {
             resources.getStringArray(R.array.family_perilaku)
         val dataKlasifikasi =
             resources.getStringArray(R.array.family_klasifikasi)
+        val startIndex =
+            resources.getStringArray(R.array.start_index_dino)
+        val endIndex =
+            resources.getStringArray(R.array.end_index_dino)
 
         val listFamily = ArrayList<Family>()
         for (i in dataName.indices) {
             val family = Family(dataName[i],
                 dataPict.getResourceId(i, -1), dataDescription[i], dataPeriode[i],
-                dataCharacteristic[i], dataHabitat[i], dataPerilaku[i], dataKlasifikasi[i])
+                dataCharacteristic[i], dataHabitat[i], dataPerilaku[i], dataKlasifikasi[i], startIndex[i].toInt(), endIndex[i].toInt())
             listFamily.add(family)
         }
         return listFamily
