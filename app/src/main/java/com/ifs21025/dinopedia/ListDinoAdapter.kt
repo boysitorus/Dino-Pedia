@@ -10,8 +10,7 @@ class ListDinoAdapter(private val listDino: ArrayList<Dino>) :
     RecyclerView.Adapter<ListDinoAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
-    fun setOnItemClickCallback(onItemClickCallback:
-                               OnItemClickCallback) {
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback
     }
 
