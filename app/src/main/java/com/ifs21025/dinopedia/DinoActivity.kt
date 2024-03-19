@@ -75,15 +75,13 @@ class DinoActivity : AppCompatActivity() {
         val endIndex = family?.endIndex
 
         val listDino = ArrayList<Dino>()
-        for (i in dataName.indices) {
-            if(i == startIndex || i == endIndex){
-                val dino = Dino(dataName[i],
-                    dataPict.getResourceId(i, -1), dataDescription[i], dataCharacteristic[i],
-                    dataKelompok[i], dataHabitat[i], dataFood[i], dataLength[i], dataHeight[i], dataWeight[i], dataWeak[i])
-                listDino.add(dino)
-            }
+        for(i in startIndex!!..endIndex!!){
+            val dino = Dino(dataName[i],
+                dataPict.getResourceId(i, -1), dataDescription[i], dataCharacteristic[i],
+                dataKelompok[i], dataHabitat[i], dataFood[i], dataLength[i], dataHeight[i], dataWeight[i], dataWeak[i])
+            listDino.add(dino)
         }
-
+        
         return listDino
     }
 
