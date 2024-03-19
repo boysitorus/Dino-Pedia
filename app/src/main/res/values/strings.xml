@@ -152,25 +152,6 @@
     </string-array>
 
 
-    <!--    <string-array name="sauropoda">-->
-    <!--        <item>Brachiosaurus</item>-->
-    <!--        <item>Apatosaurus</item>-->
-    <!--    </string-array>-->
-    <!--    <string-array name="theropoda">-->
-    <!--        <item>Tyrannosaurus</item>-->
-    <!--        <item>Velociraptor</item>-->
-    <!--    </string-array>-->
-    <!--    <string-array name="ornithopoda">-->
-    <!--        <item>Hadrosaurus</item>-->
-    <!--        <item>Iguanodon</item>-->
-    <!--    </string-array>-->
-    <!--    <string-array name="ceratopsia"></string-array>-->
-    <!--    <string-array name="stegosauria"></string-array>-->
-    <!--    <string-array name="ankylosauria"></string-array>-->
-    <!--    <string-array name="hadrosauridae"></string-array>-->
-    <!--    <string-array name="tyrannosauridae"></string-array>-->
-
-
     <string-array name="dino_pict">
         <item>@drawable/brachiosaurus</item>
         <item>@drawable/apatosaurus</item>
