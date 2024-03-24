@@ -34,9 +34,9 @@ class DetailFamilyActivity : AppCompatActivity() {
         }
 
         binding.buttonDetalDino.setOnClickListener {
-            val intentWithData = Intent(this@DetailFamilyActivity, DinoActivity::class.java)
-            intentWithData.putExtra(DinoActivity.EXTRA_FAMILY, family!!)
-            startActivity(intentWithData)
+                val intentWithData = Intent(this@DetailFamilyActivity, DinoActivity::class.java)
+                intentWithData.putExtra(DinoActivity.EXTRA_FAMILY, family!!)
+                startActivity(intentWithData)
         }
     }
 

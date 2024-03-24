@@ -28,11 +28,9 @@
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
             android:layout_weight="1"
-            android:fontFamily="@font/poppins_bold"
             android:gravity="center_vertical"
             android:text="@string/info_family_name"
-            android:textSize="34sp"
-            android:textStyle="bold" />
+            style="@style/TextBold.H1" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

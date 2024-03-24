@@ -27,9 +27,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_family_name"
-            android:textSize="20sp"
+            style="@style/TextBold.H2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivDinoDetailPicture" />
@@ -40,9 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="24dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_description"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailName" />
 
@@ -53,9 +51,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -66,9 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_characteristic"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailDesc" />
 
@@ -79,9 +75,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -92,9 +87,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
+            style="@style/TextBold.H3"
             android:text="@string/info_dino_kelompok"
-            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailCharacteristic" />
 
@@ -105,9 +99,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -118,9 +111,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_habitat"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailKelompok" />
 
@@ -131,9 +123,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -144,9 +135,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_food"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailHabitat" />
 
@@ -157,9 +147,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -170,9 +159,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_length"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailFood" />
 
@@ -185,7 +173,7 @@
             android:layout_marginEnd="15dp"
             android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -196,9 +184,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_height"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailLength" />
 
@@ -209,9 +196,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -222,9 +208,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_weight"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailHeight" />
 
@@ -235,9 +220,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
@@ -248,9 +232,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppins_bold"
             android:text="@string/info_dino_weak"
-            android:textSize="16sp"
+            style="@style/TextBold.H3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDinoDetailWeight" />
 
@@ -261,9 +244,8 @@
             android:layout_marginStart="17dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
-            android:fontFamily="@font/poppins_regular"
             android:text="TextView"
-            android:textSize="14sp"
+            style="@style/Text.P3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
